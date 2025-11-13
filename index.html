@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Calculo de Gorjeta</title>
+</head>
+
+<body>
+    
+    <div class="conteudo">
+
+        <h1>Calculadora de Gorjeta</h1>
+
+        <div class="input-grupo">
+            
+            <label for="valor-conta"> Valor da Conta (R$):</label>
+            <input type="number" id="valor-conta" placeholder="0.00">
+        </div>
+
+        <div class="input-grupo">
+            <label for="porcentagem-gorjeta"> Gorjeta (%):</label>
+            <input type="number"id="porcentagem-gorjeta" placeholder="10">
+
+        </div>
+
+        <div class="input-grupo">
+            <label for="num-pesoas"> Numero de Pessoas:</label>
+            <input type="number"id="num-pessoas" placeholder="1">
+        </div>
+
+        <button id="btn-calcular">Calcular</button>
+
+        <hr> <div class="resultados">
+
+            <h2>Resultados</h2>
+            <p>Gorjeta Por Pessoa: <span id="gorjeta-pessoa"> R$ 0.00</span></p>
+            <p>Total Por Pessoa: <span id="total-pessoa"> <R1>0.00</R1></span>  </p>
+
+
+        </div>
+    </div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
